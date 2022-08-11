@@ -13,6 +13,7 @@ let package = Package(
     products: [
         .library(
             name: "RxReachability",
+            type: .dynamic,
             targets: ["RxReachability"])
     ],
     dependencies: [
